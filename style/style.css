@@ -11,6 +11,7 @@ body {
   display: grid;
   place-items: center;
   background-color: hsl(30, 38%, 92%);
+  font-family: "Montserrat Alternates", sans-serif;
   font-size: 14px;
 }
 
