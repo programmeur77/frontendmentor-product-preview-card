@@ -3,11 +3,13 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 1rem;
+  border-radius: 10px;
 
   &__product-photo {
     width: 100%;
     grid-column: 1;
     object-fit: cover;
+    border-radius: 10px 0 0 10px;
   }
 
   & .product-description {
