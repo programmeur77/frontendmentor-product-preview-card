@@ -15,4 +15,19 @@ body {
   font-size: 14px;
 }
 
+.product-card-container {
+  width: 50%;
+}
+.product-card-container .product-card {
+  background-color: hsl(0, 0%, 100%);
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+}
+.product-card-container .product-card__product-photo {
+  width: 100%;
+  grid-column: 1;
+  object-fit: cover;
+}
+
 /*# sourceMappingURL=style.css.map */
