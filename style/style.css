@@ -23,11 +23,13 @@ body {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 1rem;
+  border-radius: 10px;
 }
 .product-card-container .product-card__product-photo {
   width: 100%;
   grid-column: 1;
   object-fit: cover;
+  border-radius: 10px 0 0 10px;
 }
 .product-card-container .product-card .product-description {
   height: fit-content;
